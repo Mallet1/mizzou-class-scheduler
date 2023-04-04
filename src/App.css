@@ -1,8 +1,13 @@
-.circle {
-    position: absolute;
+.map-paths-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
 }
 
-.mu-map {
-    width: 50%;
-    height: 50%;
+.map-container {
+    grid-column: 1;
+}
+
+.paths-controller {
+    grid-column: 2;
 }

@@ -1,0 +1,9 @@
+.map-container {
+    width: 1311px;
+    height: 1276px;
+    outline: thin solid black;
+}
+
+.circle {
+    position: absolute;
+}
